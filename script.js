@@ -13,6 +13,7 @@ function min(n, m) {
 console.log(min(0, 10));
 console.log(min(0, -10));
 console.log(min(5, 5));
+console.log(min(0.3, 9));
 
 // 2. Write a function that takes the radius of a circle and outputs it’s approximate circumference (the formula for circumference is 2 *pi * radius, you may use 3.14 for pi).
 // Example Output:
@@ -26,6 +27,7 @@ function calculateCircumference(r) {
 console.log(calculateCircumference(5));
 console.log(calculateCircumference(17));
 console.log(calculateCircumference(9));
+console.log(calculateCircumference(0.5));
 
 // 3. Write a function searchString that takes a character and then returns how many times it appears in another string argument.
 // Example Output:
