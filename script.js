@@ -18,6 +18,16 @@ console.log(min(5, 5));
 // Example Output:
 // console.log(calculateCircumference(5)); // will output 31.4
 
+function calculateCircumference(c) {
+  let pi = 3.14;
+  return pi * 2 * c;
+}
+
+console.log(calculateCircumference(5));
+console.log(calculateCircumference(17));
+console.log(calculateCircumference(9));
+
+
 // 3. Write a function searchString that takes a character and then returns how many times it appears in another string argument.
 // Example Output:
 // console.log(searchString(“s”, “mississippi”)); // will output 4
